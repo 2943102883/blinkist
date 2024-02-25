@@ -1,0 +1,15 @@
+
+
+.step-info {
+  text-align: center;
+}
+
+.active .step-marker {
+  background-color: #2a60e3;
+}
+
+@media (max-width: 600px) {
+  .step-bar {
+    flex-direction: column;
+  }
+}

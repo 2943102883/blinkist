@@ -1,0 +1,41 @@
+/* .main_image .right {
+  background-image: url(https://www.blinkist.com/packs/static/audio-hero/images/background_wave-26d0b572705a4ff36afa.svg);
+} */
+
+/* .main_image .right::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 0;
+  display: block;
+  width: 100vw;
+  height: 100%;
+  background-color: #0365f2;
+} */
+.line-blue {
+  background-color: #0365f2; 
+  height: 100%;
+  width: 6vw;
+}
+
+@media (min-width: 470px) {
+  .main_image {
+    flex-wrap: nowrap;
+  }
+}
+
+@media (max-width: 470px) {
+  .main_image {
+    flex-wrap: wrap;
+  }
+  .main_image .right {
+    right: -10px !important;
+  }
+}
+
+@media (max-width: 760px) {
+  .main_image .right {
+    right: 0 !important;
+  }
+}
